@@ -1,4 +1,4 @@
-export default function GameBoard({ board, onSelectSquare }) {
+export default function GameBoard({ board, onSelectSquare, onRestart }) {
   return (
     <ol id="game-board">
       {board.map((row, rowIndex) => (
@@ -18,6 +18,9 @@ export default function GameBoard({ board, onSelectSquare }) {
           </ol>
         </li>
       ))}
+      <button className="reset" onClick={onRestart}>
+        Reset
+      </button>
     </ol>
   );
 }

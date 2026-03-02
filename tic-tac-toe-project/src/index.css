@@ -164,7 +164,7 @@ ol {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin: 3rem 0;
+  margin-top: 3rem;
   padding: 0;
   flex-direction: column;
 }
@@ -233,6 +233,29 @@ ol {
 }
 
 #game-over button:hover {
+  background: #fcd256;
+  color: #3f3b00;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
+}
+
+#game-board .reset {
+  display: block;
+  margin: 1rem auto;
+  width: 6rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  background: none;
+  border: 1px solid #fcd256;
+  color: #fcd256;
+  padding: 0.25rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s, color 0.2s;
+  box-shadow: 0 0 4px rgba(255, 187, 0, 0.4);
+}
+
+#game-board .reset:hover {
   background: #fcd256;
   color: #3f3b00;
   transform: scale(1.1);
