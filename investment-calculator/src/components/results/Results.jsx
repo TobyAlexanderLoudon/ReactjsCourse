@@ -28,7 +28,7 @@ export default function Results({ calculatedResults }) {
       </table>
       {calculatedResults.length === 0 ? (
         <p id="no-results">
-          No results to display. Please enter your investment details.
+          No results to display.
         </p>
       ) : null}
     </section>
