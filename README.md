@@ -12,39 +12,47 @@ These are the practise files, practise tests and course files that I have learne
 
 ## Projects & Getting Started
 
-This workspace contains two Vite‑based React projects:
+This workspace contains multiple Vite‑based React applications from the course:
 
 1. **starting-project** – the starter application from the early lessons.
-2. **tic-tac-toe-project** – the tic‑tac‑toe demo built later in the course.
+2. **tic-tac-toe-project** – the tic‑tac‑toe game built during course progression.
+3. **investment-calculator** – an investment calculator application.
 
-### Common prerequisites
+### Prerequisites
 
 - Node.js (v18+ recommended)
 - npm (bundled with Node)
 
-### starting-project
+### Running Any Project
+
+Each project is independent with its own dependencies and configuration. To set up and run any project:
 
 ```bash
-cd starting-project
-npm install        # install dependencies
-npm run dev        # start development server at http://localhost:5173
-# optionally build for production:
-# npm run build
-# npm run preview # serve the production build
+# Navigate to the project directory
+cd <project-name>
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-### tic-tac-toe-project
+The development server typically runs at `http://localhost:5173`.
+
+### Optional Commands
 
 ```bash
-cd tic-tac-toe-project
-npm install        # install dependencies
-npm run dev        # start the dev server (also at http://localhost:5173)
-npm run lint       # run the configured ESLint checks
-# build/preview are the same as above
-```
+# Build for production
+npm run build
 
-Whenever you switch between the two projects, be sure to `cd` into the appropriate directory first.  Each one has its own `node_modules` and configuration.
+# Preview the production build
+npm run preview
+
+# Run linting (if configured in the project)
+npm run lint
+```
 
 ---
 
-Feel free to explore the source code under `src/` in each project or run the examples as you follow along with the course.
+Explore the source code under `src/` in each project as you follow along with the course material.
