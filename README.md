@@ -1,12 +1,26 @@
-# ReactCourse
+# React.js Learning Portfolio
 
-React.js Course from Udemy
+## Course Details
 
-Course: https://www.udemy.com/course/nextjs-react-the-complete-guide/
-Instructor Name: Maximilian Schwarzmüller
-Instructor Udmey Link: https://www.udemy.com/user/maximilian-schwarzmuller
+| Topic | Information |
+|---|---|
+| Course | [React - The Complete Guide](https://www.udemy.com/course/nextjs-react-the-complete-guide/) |
+| Instructor | Maximilian Schwarzmuller |
+| Instructor Profile | [Udemy Instructor Page](https://www.udemy.com/user/maximilian-schwarzmuller) |
 
-These are the practise files, practise tests and course files that I have learned in this course. All credit goes to the instructor. This repo is to demonstrate that I have taken the course and understood the material. I have taken this course as personal study and to be able to do more where I work and increasing the stack I can work with.
+## Learning Highlights
+
+This repository demonstrates hands-on React.js learning through active development and repetition.
+
+- **Coded Along Throughout**: Built features in real time with the course to learn React.js and related technologies.
+- **Completed Practical Work**: Finished projects, quizzes, and coding challenges from the course.
+- **Attempted Solutions First**: Tried each project independently before reviewing the instructor approach.
+- **Strengthened Understanding**: Improved outcomes through comparison, refactoring, and iterative practice.
+- **Focused on Professional Growth**: Expanded practical frontend skills for real-world development work.
+
+## Note
+
+All instructional credit belongs to Maximilian Schwarzmuller. This repository is maintained to show practical learning progress and applied proficiency.
 
 ---
 
